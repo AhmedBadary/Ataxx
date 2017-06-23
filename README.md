@@ -23,10 +23,10 @@ At any given time, your program can be in one of several states:
 
 The following commands are valid only in set-up mode. They set various game parameters prior to the start of play.
 
-* **auto** C Sets up the program so that player C (Red or Blue) is an AI. Initially, and after a clear command, Red is a manual player and Blue is an AI. Thus, the command auto Red causes both Red and Blue to be AIs, so that the start command causes the machine to play a game against itself.
-* **manual** C Sets up the program so that player C (Red or Blue) is a manual player. Thus, the command manual Blue causes both Red and Blue to be manual players (who presumably alternate entering moves on a terminal).
-* **block** CR Sets a block at square CR and all reflections of that square around the middle row and middle column, as described in Blocks. It is an error to place a block (or one of its reflections) on a previously set up piece. Blocks may not be placed after a piece move, until the board is again cleared. In case of any errors, the command has no effect.
-* **seed** N If your program's AIs use pseudo-random numbers to choose moves, this command sets the random seed to N (a long integer). This command has no effect if there is no random component to your automated players (or if you don't use them in a particular game). It doesn't matter exactly how you use N as long as your automated player(s) behave(s) identically in response to any given sequence of moves. In the absence of a seed command, do what you want to seed your generator.
+* **auto C** Sets up the program so that player C (Red or Blue) is an AI. Initially, and after a clear command, Red is a manual player and Blue is an AI. Thus, the command auto Red causes both Red and Blue to be AIs, so that the start command causes the machine to play a game against itself.
+* **manual C** Sets up the program so that player C (Red or Blue) is a manual player. Thus, the command manual Blue causes both Red and Blue to be manual players (who presumably alternate entering moves on a terminal).
+* **block CR** Sets a block at square CR and all reflections of that square around the middle row and middle column, as described in Blocks. It is an error to place a block (or one of its reflections) on a previously set up piece. Blocks may not be placed after a piece move, until the board is again cleared. In case of any errors, the command has no effect.
+* **seed N** If your program's AIs use pseudo-random numbers to choose moves, this command sets the random seed to N (a long integer). This command has no effect if there is no random component to your automated players (or if you don't use them in a particular game). It doesn't matter exactly how you use N as long as your automated player(s) behave(s) identically in response to any given sequence of moves. In the absence of a seed command, do what you want to seed your generator.
 
 The following commands are valid in any state.
 

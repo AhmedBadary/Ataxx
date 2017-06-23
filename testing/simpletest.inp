@@ -1,0 +1,6 @@
+# Check that inputs checkout to staff.
+java -ea ataxx.Main
+auto red
+start
+@red...
+quit

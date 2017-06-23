@@ -1,0 +1,15 @@
+ /** Checks that a move is valid. */
+    private void valid(char c0, char r0, char c1, char r1) {
+        if (!get(c0, r0).equals(whoseMove())) {
+            throw error("Illegal move.");
+        }
+        if (get(c1, r1) != EMPTY) {
+            throw error("Illegal move.");
+        }
+        if ((c1 - c0) == 0 && (r1 - r0) == 0) {
+            throw error("Illegal move.");
+        }
+        if (Math.abs(c1 - c0) > 2 || Math.abs(r1 - r0) > 2) {
+            throw error("Illegal move.");
+        }
+    }

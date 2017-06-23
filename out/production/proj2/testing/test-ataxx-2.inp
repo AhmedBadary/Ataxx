@@ -1,0 +1,33 @@
+# Draw!.
+java -ea ataxx.Main
+block a6
+block a5
+block b7
+block b6
+block b5
+block c5
+block c7
+block c6
+block b1
+
+block a2
+block a3
+block b2
+block b3
+block c3
+block c1
+block c2
+start
+@<Draw.
+
+dump
+@<===
+@<  r X X - X X b
+@<  X X X - X X X
+@<  X X X - X X X
+@<  - - - - - - -
+@<  X X X - X X X
+@<  X X X - X X X
+@<  b X X - X X r
+@<===
+quit

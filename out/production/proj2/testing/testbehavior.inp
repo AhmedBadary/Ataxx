@@ -1,0 +1,24 @@
+# Check correct behavior!.
+java -ea ataxx.Main
+block a6
+block a5
+clear
+clear
+clear
+blcksjd 
+a7a6a7
+a7a7
+a9-a3
+a7-b7
+clear
+dump
+@<===
+@<  r - - - - - b
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  b - - - - - r
+@<===
+quit

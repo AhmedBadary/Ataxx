@@ -1,0 +1,39 @@
+# Your very own integration test!
+# INSERT TEST CASE HERE
+# NOTE: I received a lot of help on this, and a lot of what i wrote here wasn't my orginal ideas,
+	# because by this time I haven't had really started the project.
+# Game is a draw.
+java -ea ataxx.Main
+start
+block a6
+block a5
+block b7
+block b6
+block b5
+block c7
+block c6
+block c5
+
+block a2
+block a3
+block b1
+block b2
+block b3
+block c1
+block c2
+block c3
+
+start
+@<Draw.
+
+dump
+@<===
+@<  r X X - X X b
+@<  X X X - X X X
+@<  X X X - X X X
+@<  - - - - - - -
+@<  X X X - X X X
+@<  X X X - X X X
+@<  b X X - X X r
+@<===
+quit

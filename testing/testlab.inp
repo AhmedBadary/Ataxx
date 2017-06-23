@@ -1,0 +1,40 @@
+java -ea ataxx.Main
+a7-a6
+a1-a2
+a6-b7
+a1-b1
+g1-g2
+g7-g6
+g1-f1
+g6-f7
+a6-a5
+a2-b2
+a5-a4
+f7-e6
+a4-a3
+b1-b3
+a5-b4
+a1-b1
+f1-e2
+b2-c3
+a5-c4
+b1-d3
+b3-c2
+c4-b6
+d3-b1
+b7-c7
+start
+b7-c7
+d7-e7
+dump
+@<===
+@<  b b b - - b b
+@<  b b - - b - b
+@<  - - - - - - -
+@<  r r - - - - -
+@<  r r r - - - -
+@<  r r r - b - r
+@<  r r - - - r r
+@<===
+
+quit
